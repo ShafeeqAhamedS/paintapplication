@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paint app</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="body">
+        <h1>Paint App Using HTML, CSS & JS</h1>
+        <div id="canvasposition">
+            <canvas id="myCanvas" width="800" height="800" onclick="showCoords(event)"></canvas>
+        </div>
+        
+        <button onclick="shape=1" id="shapeandsize">Circle</button>
+        <button onclick="shape=2" id="shapeandsize">Square</button>
+        <button onclick="shape=3" id="shapeandsize">Triangle</button>
+        <br>
+        <button onclick="size()" id="shapeandsize" >Change size</button></center>
+
+        <button onclick="change_color(this)" id="colorbox" style="background: white;"></button>
+        <button onclick="change_color(this)" id="colorbox" style="background: rgb(255, 72, 72);"></button>
+        <button onclick="change_color(this)" id="colorbox" style="background: #4ea8de;"></button>
+        <button onclick="change_color(this)" id="colorbox" style="background: #38b000;"></button>
+        <button onclick="change_color(this)" id="colorbox" style="background: rgb(255, 115, 1);"></button>
+        <button onclick="change_color(this)" id="colorbox" style="background: rgb(252, 255, 60);"></button>
+        <button onclick="change_color(this)" id="colorbox" style="background: rgb(0, 0, 0);"></button>
+
+        <div id="footer">
+            <p>Developed By SHAFEEQ AHAMED S</p>
+        </div>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>    
